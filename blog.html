@@ -9,28 +9,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <!-- Otros enlaces de navegación -->
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="blog-posts">
-            <h1>Blog</h1>
-            <article>
-                <h2>Título del artículo</h2>
-                <p>Contenido del artículo...</p>
-                <a href="post1.html">Leer más</a>
-            </article>
-            <!-- Más artículos -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Data Annotation Tech. Todos los derechos reservados.</p>
-    </footer>
+    <div class="page-wrapper">
+        <div class="global-styles w-embed">
+            <!-- Include the same styles from index.html here if necessary -->
+        </div>
+        <div>
+            <div data-collapse="medium" data-animation="default" data-duration="400" fs-scrolldisable-element="smart-nav" data-easing="ease" data-easing2="ease" role="banner" class="navbar_component w-nav">
+                <div class="navbar_container">
+                    <a href="index.html" aria-current="page" class="navbar_logo-link signup-button w-nav-brand w--current"><img src="https://assets-global.website-files.com/6459eb6341c323e922c56917/645cba55e56a8c7333bd24b6_Logo%20white.svg" loading="lazy" alt="DataAnnotationtech.com logo" class="navbar_logo"></a>
+                    <nav role="navigation" class="navbar_menu is-page-height-tablet w-nav-menu">
+                        <a href="#" class="navbar_link hide w-nav-link">Testimonios</a>
+                        <a href="programmers.html" class="navbar_link signup-button w-nav-link">Know how to code?</a>
+                        <a href="about.html" class="navbar_link signup-button w-nav-link">About</a>
+                        <a href="blog.html" class="navbar_link signup-button w-nav-link">Blog</a>
+                        <a href="faq.html" class="navbar_link signup-button w-nav-link">FAQ</a>
+                        <a href="#" onclick="return gtag_report_conversion('https://t.me/Prueba_Data_Tech_bot');" class="navbar_link w-nav-link">Sign In</a>
+                        <div class="navbar_menu-buttons signup-button">
+                            <a href="#" onclick="return gtag_report_conversion('https://t.me/Prueba_Data_Tech_bot');" class="button is-alternate is-small signup-button w-button">Empieza ya</a>
+                        </div>
+                    </nav>
+                    <div class="show-tablet">
+                        <a href="#" onclick="return gtag_report_conversion('https://t.me/Prueba_Data_Tech_bot');" class="button-nav-small signup-button w-button">Get Started</a>
+                        <div class="navbar_menu-button w-nav-button">
+                            <div class="menu-icon1">
+                                <div class="menu-icon_line-top"></div>
+                                <div class="menu-icon_line-middle">
+                                    <div class="menu-icon_line-middle-inner"></div>
+                                </div>
+                                <div class="menu-icon_line-bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_trigger-dark"></div>
+        </div>
+        <main class="main-wrapper">
+            <section class="hero">
+                <h1>Bienvenido al Blog</h1>
+                <p>Encuentra las últimas novedades y artículos sobre anotación de datos y más.</p>
+            </section>
+            <section class="padding-global">
+                <div class="container-large">
+                    <div class="blog-posts">
+                        <article class="blog-post">
+                            <h2>Título del artículo</h2>
+                            <p>Contenido del artículo...</p>
+                            <a href="post1.html">Leer más</a>
+                        </article>
+                        <!-- Más artículos -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Data Annotation Tech. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="scripts.js" defer></script>
 </body>
 </html>
