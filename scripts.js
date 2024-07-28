@@ -123,3 +123,18 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-EK2JNPD824');
 gtag('config', 'AW-16568645155');
+
+document.addEventListener('DOMContentLoaded', function () {
+    const posts = JSON.parse(localStorage.getItem('posts')) || [];
+    const blogPostsContainer = document.getElementById('blog-posts');
+    posts.forEach(post => {
+        const postElement = document.createElement('article');
+        postElement.classList.add('blog-post');
+        postElement.innerHTML = `
+            <h2>${post.title}</h2>
+            <p>${post.content}</p>
+        `;
+        blogPostsContainer.appendChild(postElement);
+    });
+});
+
