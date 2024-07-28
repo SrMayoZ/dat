@@ -1,0 +1,8 @@
+[
+    {
+        "title": "Introducción a la Anotación de Datos: Importancia y Aplicaciones",
+        "content": "La anotación de datos es un proceso fundamental en el campo de la inteligencia artificial y el aprendizaje automático. Consiste en etiquetar o marcar datos brutos para que los modelos puedan aprender a reconocer patrones y realizar predicciones. Este proceso es crucial para el desarrollo de aplicaciones como el reconocimiento de voz, la visión por computadora y el procesamiento del lenguaje natural. La precisión y calidad de las anotaciones pueden determinar el éxito de un modelo, por lo que es vital contar con anotadores bien entrenados y con herramientas adecuadas.",
+        "link": "post1.html"
+    }
+    // Añade más posts aquí
+]
